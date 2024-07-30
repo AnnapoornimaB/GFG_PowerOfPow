@@ -1,0 +1,14 @@
+class Solution
+{
+    public long sum_of_square_oddNumbers(long n)
+    {
+        long r = 0;
+        int t=1;
+        for(int i=1;i<=n;i++)
+        {
+            r += (long)(Math.pow(t,2));
+            t+=2;
+        }
+    return r;
+    }
+}
